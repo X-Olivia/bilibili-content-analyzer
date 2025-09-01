@@ -340,49 +340,6 @@ SEARCH_KEYWORDS = [
 - **词云生成**: wordcloud
 - **数据存储**: CSV, Excel, JSON
 
-## 快速入门指南
-
-### 30秒快速体验
-
-```bash
-# 1. 克隆项目
-git clone https://github.com/your-repo/bilibili-content-analyzer.git
-cd bilibili-content-analyzer
-
-# 2. 安装依赖
-pip install -r requirements.txt
-
-# 3. 安装项目（推荐）
-pip install -e .
-
-# 4. 运行分析（使用默认配置）
-bilibili-analyzer
-
-# 5. 查看结果
-# 结果将保存在 output/ 目录下
-# 打开 output/charts/interactive_dashboard.html 查看交互式报告
-```
-
-### 自定义话题分析
-
-```bash
-# 1. 复制配置文件
-cp src/bilibili_analyzer/config.py my_custom_config.py
-
-# 2. 修改关键词（以分析"美食"话题为例）
-# 编辑 my_custom_config.py
-SEARCH_KEYWORDS = [
-    '美食制作', '烘焙教程', '家常菜', '甜品制作',
-    '料理技巧', '食谱分享', '厨房技巧', '美食测评',
-    '中式料理', '西式料理'
-]
-
-# 3. 使用自定义配置运行
-bilibili-analyzer --config my_custom_config.py --force-recollect
-
-# 4. 等待完成并查看结果
-```
-
 ## 故障排除
 
 ### 常见问题及解决方案
