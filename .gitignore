@@ -147,21 +147,23 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Project specific
+# Project specific - Keep analysis results as examples
 logs/
-data/raw/*.csv
-data/processed/*.csv
-output/
-*.png
-*.html
-*.xlsx
-*.json
 temp/
 cache/
+
+# Keep data and analysis results as examples
+# data/raw/*.csv     # Keep as examples
+# data/processed/*.csv  # Keep as examples  
+# output/            # Keep as examples
+# *.png             # Keep charts as examples
+# *.html            # Keep dashboard as examples
+# *.xlsx            # Keep Excel reports as examples
+# *.json            # Keep analysis reports as examples
+
+# Only exclude temporary font test files
+font_test_chart.png
 
 # Keep example files
 !examples/
 !docs/
-
-# Font test files
-font_test_chart.png
