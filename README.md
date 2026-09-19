@@ -1,5 +1,8 @@
 # B站内容分析工具
 
+[![中文](https://img.shields.io/badge/中文-当前-red?style=for-the-badge)](./README.md)
+[![English](https://img.shields.io/badge/English-Switch-blue?style=for-the-badge)](./README_EN.md)
+
 这是一个通用的B站（哔哩哔哩）内容数据分析工具，默认用于分析"执行力"相关视频内容，但可以轻松配置为分析任何话题。通过收集和分析指定时间范围内的相关视频数据，深度洞察话题的热门程度变化、观众态度转变以及内容关注点的演进。
 
 ## 核心特色
@@ -110,7 +113,8 @@ bilibili/
 ├── requirements.txt             # 项目依赖
 ├── pyproject.toml              # 项目配置文件
 ├── LICENSE                     # 许可证
-└── README.md                   # 项目说明
+├── README.md                   # 项目说明（中文，默认）
+└── README_EN.md                # 项目说明（English）
 ```
 
 ## 输出文件说明

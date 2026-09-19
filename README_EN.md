@@ -1,5 +1,8 @@
 # Bilibili Content Analyzer
 
+[![中文](https://img.shields.io/badge/中文-Switch-red?style=for-the-badge)](./README.md)
+[![English](https://img.shields.io/badge/English-Current-blue?style=for-the-badge)](./README_EN.md)
+
 A comprehensive and highly configurable data analysis tool for Bilibili video content. Originally designed for analyzing "execution capability" topics but easily adaptable to analyze any subject matter through simple configuration changes.
 
 ## Key Features
@@ -177,7 +180,8 @@ bilibili-content-analyzer/
 ├── tests/                       # Test files
 ├── requirements.txt             # Project dependencies
 ├── pyproject.toml              # Project configuration
-└── README.md                   # Project documentation
+├── README.md                   # Project documentation (Chinese, default)
+└── README_EN.md                # Project documentation (English)
 ```
 
 ## Output Files
